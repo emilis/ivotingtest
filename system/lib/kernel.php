@@ -51,7 +51,7 @@ function showContent() {
     }
 
     echo showTpl($tpl, $__output_vars);
-    exit()
+    exit();
 }
 
 /**
