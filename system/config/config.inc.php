@@ -4,6 +4,8 @@ define("CONFIG_DIR", dirname(__FILE__));
 define("SYSTEM_DIR", dirname(CONFIG_DIR));
 define("LIB_DIR", SYSTEM_DIR . "/lib");
 
+define("FILES_URL", "files");
+
 $config = array();
 
 $config["email_salt"] = "Change this!";
