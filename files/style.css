@@ -29,17 +29,21 @@ input.action:hover {
 
 #header {
     padding: 10px;
-    background-color: #ccf;
+    background-color: #99f;
     color: #fff;
+    font-family: Trebuchet MS, Trebuchet, Arial, Verdana, sans-serif;
 }
 
     #header > a {
         text-decoration: none;
         font-weight: bold;
+        font-size: 18px;
         color: #fff;
     }
 
     #header > span.credits {
+        display: block;
+        float: right;
         font-size: 13px;
     }
 
@@ -50,14 +54,16 @@ input.action:hover {
     div.dialog {
         background-color: #ffe;
         padding: 10px;
-        margin: 20px;
+        margin: 20px auto;
         border: 1px solid #ccc;
-        text-align: center;
+        width: 600px;
+        /*text-align: center;*/
     }
 
     #ballot {
         border-collapse: collapse;
         border: 3px double #333;
+        margin: 10px auto;
     }
 
         #ballot thead {
@@ -83,3 +89,12 @@ input.action:hover {
             }
 
 
+    div.cutout {
+        border: 2px inset #ccc;
+        padding: 5px;
+        margin: 10px auto;
+        width: 600px;
+        background-color: #fafafa;
+        font-size: 13px;
+        color: #666;
+    }
