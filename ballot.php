@@ -29,7 +29,7 @@ setOutputVar("title", "Balsavimo biuletenis");
             <td>Oligarchų kišenės partija</td>
         </tr><tr>
             <td><input type="radio" name="party" value=""></td>
-            <td>Aljansas "Motulė Rusija"</td>
+            <td>Marginalų aljansas "Motulė Rusija"</td>
         </tr>
     </tbody>
 </table>

@@ -11,7 +11,8 @@
 <body>
     <div id="header">
         <a href="index.php">E-balsavimo testas 2012</a>
-        <span class="credits">Sistemą kūrė: <em>UAB Elektroninių rinkimų prichvatizacija</em>, auditavo: <em>UAB Absoliučiai saugus skaitmeninis atkatas</em></span>
+        <span class="credits">Sistemą kūrė: <em>UAB Elektroninių rinkimų prichvatizacija</em>,
+            <br>auditavo: <em>UAB Absoliučiai saugus skaitmeninis atkatas</em></span>
     </div>
     <div id="content"><?php
 

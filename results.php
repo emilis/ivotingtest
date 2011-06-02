@@ -6,8 +6,7 @@ setOutputVar("title", "Balsavimo rezultatai");
 
 ?>
 <div class="dialog">
-    <p>Ačiū!</p>
-    <p>Jūsų balsas už <b>XXX</b> suskaičiuotas</p>
+    <p>Ačiū! Jūsų balsas už <b>XXX</b> suskaičiuotas</p>
 </div>
 
 <table id="ballot">
@@ -32,7 +31,7 @@ setOutputVar("title", "Balsavimo rezultatai");
             <td>Oligarchų kišenės partija</td>
             <td class="result wrong">16003 <a href="javascript:showTip('big-result');">(?)</a></td>
         </tr><tr>
-            <td>Aljansas "Motulė Rusija"</td>
+            <td>Marginalų aljansas "Motulė Rusija"</td>
             <td class="result">2</td>
         </tr>
     </tbody>
@@ -43,6 +42,11 @@ setOutputVar("title", "Balsavimo rezultatai");
         </tr>
     </tfoot>
 </table>
+
+<div class="cutout">
+    <p>Gerbiami slaptųjų tarnybų atstovai, užsienio diplomatai, partijų vadovai ir šiaip landūs piliečiai!</p>
+    <p>Siūlome jums pirkti rinkėjų balsų duomenų bazę.</p>
+</div>
 
 <?php
 
