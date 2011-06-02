@@ -45,7 +45,7 @@ setOutputVar("title", "Balsavimo rezultatai");
 
 <div class="cutout">
     <p>Gerbiami slaptųjų tarnybų atstovai, užsienio diplomatai, partijų vadovai ir šiaip landūs piliečiai!</p>
-    <p>Siūlome jums pirkti rinkėjų balsų duomenų bazę.</p>
+    <p><a href="buy-log.php">Siūlome jums pirkti rinkėjų balsų duomenų bazę</a>.</p>
 </div>
 
 <?php

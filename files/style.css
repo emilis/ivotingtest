@@ -98,3 +98,15 @@ input.action:hover {
         font-size: 13px;
         color: #666;
     }
+
+    table.log {
+        font-size: 13px;
+        border-collapse: collapse;
+    }
+    
+        table.log th,
+        table.log td {
+            font-size: 13px;
+            border: 1px solid #ccc;
+            padding: 1px 5px;
+        }
