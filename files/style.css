@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+th,
+td {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+a.action,
+input.action {
+    padding: 10px;
+    background-color: #060;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #030;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.action:hover,
+input.action:hover {
+    background-color: #900;
+    border-color: #300;
+}
+
+#header {
+    padding: 10px;
+    background-color: #ccf;
+    color: #fff;
+}
+
+    #header > a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    #header > span.credits {
+        font-size: 13px;
+    }
+
+#content {
+    margin: 20px;
+}
+
+    div.dialog {
+        background-color: #ffe;
+        padding: 10px;
+        margin: 20px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    #ballot {
+        border-collapse: collapse;
+        border: 3px double #333;
+    }
+
+        #ballot thead {
+            background-color: #fff8f8;
+        }
+
+        #ballot tbody {
+            background-color: #f8fff8;
+        }
+
+        #ballot td,
+        #ballot th {
+            border: 1px solid #666;
+            padding: 10px;
+        }
+
+            #ballot td.result {
+                color: #090;
+            }
+
+            #ballot td.wrong {
+                color: #c00;
+            }
+
+
